@@ -11,12 +11,12 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
                 height : 4 //Used to position the "Or" in the combined block.
             }, 
             stimulusMedia : [ //Stimuli content as PIP's media objects
-                {image: 'bm1_nc.jpg'},
-                {image: 'bm2_nc.jpg'},
-                {image: 'bm3_nc.jpg'},
-                {image: 'bf1_nc.jpg'},
-                {image: 'bf2_nc.jpg'},                 
-                {image: 'bf3_nc.jpg'}     
+                {image: 'R1.jpg'},
+                {image: 'R2.jpg'},
+                {image: 'R3.jpg'},
+                {image: 'R4.jpg'},
+                {image: 'R5.jpg'},                 
+                {image: 'R6.jpg'}     
             ],
             //Stimulus css (style)
             stimulusCss : {color:'#31940F','font-size':'2.3em'}
@@ -24,17 +24,17 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
         category2 : {
             name : global.whiteLabels, //Will appear in the data.
             title : {
-                media : {word : global.whiteLabels}, //Name of the category presented in the task.
+                media : {word : 'Non Riciclabile'}, //Name of the category presented in the task.
                 css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
                 height : 4 //Used to position the "Or" in the combined block.
             }, 
             stimulusMedia : [ //Stimuli content as PIP's media objects
-                {image: 'wm1_nc.jpg'},
-                {image: 'wm2_nc.jpg'},
-                {image: 'wm3_nc.jpg'},
-                {image: 'wf1_nc.jpg'},
-                {image: 'wf2_nc.jpg'},
-                {image: 'wf3_nc.jpg'}
+                {image: 'NR1.jpg'},
+                {image: 'NR2.jpg'},
+                {image: 'NR3.jpg'},
+                {image: 'NR4.jpg'},
+                {image: 'NR5.jpg'},
+                {image: 'NR6.jpg'}
             ],
             //Stimulus css (style)
             stimulusCss : {color:'#31940F','font-size':'2.3em'}
