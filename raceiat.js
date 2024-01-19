@@ -42,19 +42,17 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
         attribute1 : {
             name : 'Bad words',
             title : {
-                media : {word : 'Bad words'},
+                media : {word : 'Cattivo'},
                 css : {color:'#0000FF','font-size':'1.8em'},
                 height : 4 //Used to position the "Or" in the combined block.
             },
             stimulusMedia : [ //Stimuli content as PIP's media objects
-                {word: global.negWords[0]},
-                {word: global.negWords[1]},
-                {word: global.negWords[2]},
-                {word: global.negWords[3]},
-                {word: global.negWords[4]},
-                {word: global.negWords[5]},
-                {word: global.negWords[6]},
-                {word: global.negWords[7]}
+                {word: 'sgradevole'},
+                {word: 'losco'},
+                {word: 'negativo'},
+                {word: 'fastidioso'},
+                {word: 'indesiderato'},
+               
             ],
             //Stimulus css
             stimulusCss : {color:'#0000FF','font-size':'2.3em'}
@@ -62,19 +60,17 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
         attribute2 : {
             name : 'Good words',
             title : {
-                media : {word : 'Good words'},
+                media : {word : 'Buono'},
                 css : {color:'#0000FF','font-size':'1.8em'},
                 height : 4 //Used to position the "Or" in the combined block.
             },
             stimulusMedia : [ //Stimuli content as PIP's media objects
-                {word: global.posWords[0]},
-                {word: global.posWords[1]},
-                {word: global.posWords[2]},
-                {word: global.posWords[3]},
-                {word: global.posWords[4]},
-                {word: global.posWords[5]},
-                {word: global.posWords[6]},
-                {word: global.posWords[7]}
+                {word: 'gradevole' },
+                {word: 'simpatico'},
+                {word: 'amichevole'},
+                {word: 'bello'},
+                {word: 'ottimo'},
+                
             ],
             //Stimulus css
             stimulusCss : {color:'#0000FF','font-size':'2.3em'}
